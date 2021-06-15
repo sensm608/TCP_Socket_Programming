@@ -40,7 +40,7 @@ class Quizclient:
 
         self.default_lbl = list()
         self.players_lbl = list()
-        self.image_default = tk.PhotoImage(file='images/default.png', width=200, height=130)
+        self.image_default = tk.PhotoImage(file='../images/default.png', width=200, height=130)
         self.color_image = list()
         for i in range(0, 6):
             self.color_image.append(tk.PhotoImage(file='images/'+self.image_color[i], width=200, height=130))
